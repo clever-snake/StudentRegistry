@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+
+# Compiled program / build files
+*.exe
+*.o
+/StudentRegistry
+
+# Files saved by Claude (e.g. CV) - not part of the project
+Claude outputs/

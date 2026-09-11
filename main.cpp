@@ -152,13 +152,12 @@ int main(){
     endwin();
     window = newwin(40,140,1,1);
     
-
     int ans=0;
     while(ans!=15){
         menu(window);
         char buffer[10];
-        mvwhline(window,15,2,' ',140);
-        mvwgetnstr(window,15,2,buffer,9);
+        mvwhline(window,16,2,' ',140);
+        mvwgetnstr(window,16,2,buffer,9);
         ans=atoi(buffer);
         switch (ans){    
             case 1:
